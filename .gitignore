@@ -1,0 +1,14 @@
+src/settings/__init__.py
+src/settings/dev.py
+.settings/
+.project/
+.idea/
+src/.idea/ 
+*.pyc
+media/
+run/
+venv/
+data/
+.project
+.pydevproject
+_build

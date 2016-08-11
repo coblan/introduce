@@ -10,3 +10,4 @@
    :maxdepth: 2
 
    weixin
+   pts
