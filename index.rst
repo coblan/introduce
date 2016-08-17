@@ -21,7 +21,6 @@ Contents:
 
    introduce_me
    project/project
-   myproject
    tech
 
 
