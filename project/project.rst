@@ -11,6 +11,9 @@
 .. toctree::
    :maxdepth: 2
 
-   weixin
+   nianhui
+   attend
    pts
    apg
+   wallpaper
+   other

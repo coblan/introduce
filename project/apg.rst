@@ -7,4 +7,4 @@
 
 公司有很多的studio，和app。现在的需求是以studio为单位，建立网站。这样可以提高SEO排名，也可以作为展示studio的一个平台。
 
-.. img:: /_static/apg_01.png
+.. image:: /_static/apg_01.png
