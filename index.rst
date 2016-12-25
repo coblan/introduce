@@ -3,13 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-文档目的
-==========
 
-主要介绍在全职IT工作的这段时间里，我做过的项目。
-
-如果您脾气好，可以看看我的 :ref:`感慨<感慨>`
-
+求职简介
 
 内容:
 
@@ -17,6 +12,11 @@
    :maxdepth: 2
    :numbered: 2
 
+   preface
+   basic
+   self_mark
    project/project
+   target
+   
    tech
    introduce_me
