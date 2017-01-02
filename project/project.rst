@@ -1,4 +1,6 @@
 
+.. _project:
+
 ===================
 项目经验
 ===================
@@ -9,12 +11,15 @@
 
 在我工作的一年中，主要工作内容是开发web形式的管理工具。下面是以我为 **主要开发者** 的项目:
 
+主要是中小型项目。
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    nianhui
    attend
    pts
    apg
    wallpaper
-   myproject
+   desktop
+   insight

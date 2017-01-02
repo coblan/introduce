@@ -3,6 +3,7 @@ apg
 ======
 全名为app webpage generator，作用是以studio为单位，自动生成静态的网站。
 
+http://www.applabsinc.net/
 
 需求
 =======

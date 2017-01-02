@@ -10,13 +10,14 @@
 
 .. toctree::
    :maxdepth: 2
-   :numbered: 2
+   :numbered: 1
 
    preface
-   basic
-   self_mark
    project/project
-   target
    
-   tech
-   introduce_me
+..   basic
+..   self_mark
+..   target
+   
+..   tech
+..   introduce_me
