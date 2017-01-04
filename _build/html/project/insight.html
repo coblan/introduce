@@ -1,0 +1,235 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>insight &mdash; introduce 1 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="introduce 1 documentation" href="../index.html"/>
+        <link rel="up" title="5. 项目经验" href="project.html"/>
+        <link rel="next" title="桌面端" href="desktop.html"/>
+        <link rel="prev" title="wallpaper" href="wallpaper.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> introduce
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../preface.html">1. 前言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html#id5">2. 基本情况</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html#id8">3. 自我评价</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../preface.html#id11">4. 求职意向</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="project.html">5. 项目经验</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="nianhui.html">2015年会</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attend.html">考勤系统</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pts.html">PTS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="apg.html">apg</a></li>
+<li class="toctree-l2"><a class="reference internal" href="wallpaper.html">wallpaper</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">insight</a></li>
+<li class="toctree-l2"><a class="reference internal" href="desktop.html">桌面端</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">introduce</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="project.html">5. 项目经验</a> &raquo;</li>
+      
+    <li>insight</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/project/insight.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="insight">
+<span id="id1"></span><h1>insight<a class="headerlink" href="#insight" title="Permalink to this headline">¶</a></h1>
+<p>本项目是我自己做的项目，还在不断的完善当中。可以说这个项目是我这一年多以来的经验总和，看起来简单，但是凝聚了大量的考量。我的目标是模拟Django Admin框架，构造一个管理系统框架。到目前，类Django_Admin功能基本完成。期盼能够在未来的工作中得到大量应用。</p>
+<p>测试地址：<a class="reference external" href="http://insight.enjoyst.com/">http://insight.enjoyst.com/</a></p>
+<p>我做到了以下几点：</p>
+<ol class="arabic">
+<li><p class="first">前后端分离</p>
+<blockquote>
+<div><p>Django Admin框架包办了前后端功能。通过在后端设置代码，达到控制前端显示的目的。在普通情况下，开发效率极高，维护性极佳。但是，一旦遇到比较特殊的要求，后端代码量爆炸式增长，开发效率和维护性急剧下降。甚至，大量效果Admin无法实现。</p>
+<p>鉴于此，我将前后端分离，后端代码只涉及到数据，而前端借助于AngularJs或者Vuejs框架，以数据驱动生成页面。这样，后端代码做到了极简，而前端利用到了最新的前端技术开发，大大优于Django单打独斗的方式。</p>
+</div></blockquote>
+</li>
+<li><p class="first">改进权限控制</p>
+<blockquote>
+<div><p>Django Admin的权限管理，只能控制整张表的创建，更新和删除。<a class="reference external" href="https://github.com/django-guardian/django-guardian">django-guardian</a> 达到了行(object)级别的控制。但是对于产品级别的管理系统，这是远远不够的。我的目标是做到字段级别控制。这样不仅可以达到权限控制的目的，而且还能尽量暴露较少的内容给用户，达到简化系统的目的。</p>
+<img alt="../_images/permit.png" src="../_images/permit.png" />
+</div></blockquote>
+</li>
+</ol>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="desktop.html" class="btn btn-neutral float-right" title="桌面端" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="wallpaper.html" class="btn btn-neutral" title="wallpaper" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, heyulin.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
