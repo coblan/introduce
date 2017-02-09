@@ -1,23 +1,31 @@
-.. introduce documentation master file, created by
-   sphinx-quickstart on Mon Aug 01 17:00:05 2016.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
 
-求职简介
+===================
+项目经验
+===================
 
-内容:
+从2015年9月我从机械行业转行到IT行业。在公司担当python工程师。由于python的强大，python工程师可以干的事情非常多。从基本的图片处理到数据抓取，基本上我什么事情都得干。但是其中规模称得上是项目的，是以web形式开发各种管理工具。这是一个非常宽广的领域，需要不断的学习新技术。其中由于工作需要，我也学习了大量的前端知识，它们使得我在管理系统开发效率上获得了很大提升。
+
+以下这些项目是我在这一年中以 **主要开发者** 参与的 **公司** web管理系统项目。
 
 .. toctree::
-   :maxdepth: 2
-   :numbered: 1
+   :maxdepth: 1
 
-   preface
-   project/project
-   
-..   basic
-..   self_mark
-..   target
-   
-..   tech
-..   introduce_me
+   project/nianhui
+   project/attend
+   project/pts
+   project/apg
+   project/wallpaper
+
+
+不封装，不累积代码库的程序员，一定没有作为。我自己将工作中的灵感，封装成一个管理系统框架。下面是一个简单的demo，平淡的外表，但是及其灵活和强大。
+
+.. toctree::
+
+   project/insight
+
+制作管理系统并不必要局限于web端，下面是我联系时做过的桌面端软件。
+
+.. toctree::
+
+   project/desktop
